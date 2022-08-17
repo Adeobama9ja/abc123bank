@@ -3,9 +3,9 @@
 server with default setting (user 'root' with no password)
 INPUT UR SQL DETAILS HERE  */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'loghgacg_one');
-define('DB_PASSWORD', '1lorentBank!');
-define('DB_NAME', 'loghgacg_one');
+define('DB_USERNAME', 'bad2f70af378eb');
+define('DB_PASSWORD', '17f59be5!');
+define('DB_NAME', 'us-cdbr-east-06.cleardb.net');
 class Database
 {
    /* Do not set or touch any thing here */  
