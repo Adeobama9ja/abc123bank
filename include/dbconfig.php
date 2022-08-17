@@ -2,10 +2,10 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password)
 INPUT UR SQL DETAILS HERE  */
-define('DB_SERVER', 'localhost');
+define('DB_SERVER', 'us-cdbr-east-06.cleardb.net');
 define('DB_USERNAME', 'bad2f70af378eb');
 define('DB_PASSWORD', '17f59be5!');
-define('DB_NAME', 'us-cdbr-east-06.cleardb.net');
+define('DB_NAME', 'loghgacg_one');
 class Database
 {
    /* Do not set or touch any thing here */  
