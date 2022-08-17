@@ -1,0 +1,1 @@
+function initEnsightenDataModel(){dataLayer.dataModelType="uama",null==dataLayer.dataModel.uama&&(dataLayer.dataModel.uama={})}$(function(){$("[autofocus]").focus(),$(".js-Tooltip").sgtooltip(),String.prototype.rtrim=function(){return this.replace(/\s+$/,"")}});
