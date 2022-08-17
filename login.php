@@ -3,7 +3,7 @@
 header("X-Robots-Tag: noindex, nofollow", true);
 session_start();
 
-require('include/dbconfig.php');
+// require('include/dbconfig.php');
 require_once 'include/class.user.php';
 
 $reg_user = new USER();

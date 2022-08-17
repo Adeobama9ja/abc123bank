@@ -33,10 +33,10 @@ class Database
     }
 }
 /* Attempt to connect to MySQL database */
-$conn = mysqli_connect('localhost', 'bad2f70af378eb', '17f59be5!', 'us-cdbr-east-06.cleardb.net');
+$connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
  
 // Check connection
-if($conn === false){
+if($connection === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 
