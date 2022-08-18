@@ -2,10 +2,10 @@
 class Database
 {
      
-    private $host = "localhost";
+    private $host = "us-cdbr-east-06.cleardb.net";
     private $db_name = "loghgacg_one";
-    private $username = "loghgacg_one";
-    private $password = "1lorentBank!";
+    private $username = "ba241a45845eca";
+    private $password = "84058e0a";
     public $conn;
      
     public function dbConnection()
