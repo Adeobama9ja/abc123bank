@@ -3,7 +3,7 @@ class Database
 {
      
     private $host = "us-cdbr-east-06.cleardb.net";
-    private $db_name = "loghgacg_one";
+    private $db_name = "heroku_853c12b08f48e55";
     private $username = "ba241a45845eca";
     private $password = "84058e0a";
     public $conn;
@@ -28,21 +28,21 @@ class Database
     }
 }
 
-$connection = mysqli_connect('localhost', 'loghgacg_one', '1lorentBank!');
+$connection = mysqli_connect('us-cdbr-east-06.cleardb.net', 'ba241a45845eca', '84058e0a');
 if (!$connection){
     die("Database Connection Failed" . mysqli_error($connection));
 }
-$select_db = mysqli_select_db($connection, 'loghgacg_one');
+$select_db = mysqli_select_db($connection, 'heroku_853c12b08f48e55');
 if (!$select_db){
     die("Database Selection Failed" . mysqli_error($connection));
 }
 
 
 
-$DB_host = "localhost";
-$DB_user = "loghgacg_one";
-$DB_pass = "1lorentBank!";
-$DB_name = "loghgacg_one";
+$DB_host = "us-cdbr-east-06.cleardb.net";
+$DB_user = "ba241a45845eca";
+$DB_pass = "84058e0a";
+$DB_name = "heroku_853c12b08f48e55";
 
 
 try
