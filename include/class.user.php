@@ -234,7 +234,7 @@ class USER {
         $mail->Username = "support@lorentbk.herokuapp.com";
         $mail->Password = "1lorentBank!";
         $mail->SetFrom('support@lorentbk.herokuapp.com', 'LOrent Western');
-        $mail->AddReplyTo("support@lorentbk.herokuapp.com", "L'Orent Western");
+        $mail->AddReplyTo("support@lorentbk.herokuapp.com", "LOrent Western");
         $mail->Subject = $subject;
         $mail->MsgHTML($messag);
         $mail->Send();
