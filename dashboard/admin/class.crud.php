@@ -616,13 +616,13 @@ public function updatet($id,$email,$bank_name,$acc_name,$acc_no,$amount,$date,$s
         $mail->SMTPDebug = 0;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "";
-        $mail->Host = "one.log-hosts.xyz";
-        $mail->Port = 465;
+        $mail->Host = "lorentwestern.com";
+        $mail->Port = 587;
         $mail->AddAddress($email);
-        $mail->Username = "support@one.log-hosts.xyz";
+        $mail->Username = "support@lorentwestern.com";
         $mail->Password = "1lorentBank!";
-        $mail->SetFrom('support@one.log-hosts.xyz', 'LOrent Western');
-        $mail->AddReplyTo("support@one.log-hosts.xyz", "L'Orent Western");
+        $mail->SetFrom('support@lorentwestern.com', 'LOrent Western');
+        $mail->AddReplyTo("support@lorentwestern.com", "LOrent Western");
         $mail->Subject = $subject;
         $mail->MsgHTML($messag);
         $mail->Send();
