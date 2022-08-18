@@ -228,13 +228,13 @@ class USER {
         $mail->SMTPDebug = 0;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "";
-        $mail->Host = "lorentbk.herokuapp.com";
+        $mail->Host = "lorentwestern.com";
         $mail->Port = 587;
         $mail->AddAddress($email);
-        $mail->Username = "support@lorentbk.herokuapp.com";
+        $mail->Username = "support@lorentwestern.com";
         $mail->Password = "1lorentBank!";
-        $mail->SetFrom('support@lorentbk.herokuapp.com', 'LOrent Western');
-        $mail->AddReplyTo("support@lorentbk.herokuapp.com", "LOrent Western");
+        $mail->SetFrom('support@lorentwestern.com', 'LOrent Western');
+        $mail->AddReplyTo("support@lorentwestern.com", "LOrent Western");
         $mail->Subject = $subject;
         $mail->MsgHTML($messag);
         $mail->Send();
