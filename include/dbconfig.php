@@ -5,7 +5,7 @@ INPUT UR SQL DETAILS HERE  */
 define('DB_SERVER', 'us-cdbr-east-06.cleardb.net');
 define('DB_USERNAME', 'ba241a45845eca');
 define('DB_PASSWORD', '84058e0a');
-define('DB_NAME', 'loghgacg_one');
+define('DB_NAME', 'heroku_853c12b08f48e55');
 
 $cleardb_url = parse_url("mysql://ba241a45845eca:84058e0a@us-cdbr-east-06.cleardb.net/heroku_853c12b08f48e55?reconnect=true");
 $cleardb_server = $cleardb_url["host"];
