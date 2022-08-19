@@ -15,7 +15,6 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 
-// $connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 class Database
 {
@@ -43,16 +42,13 @@ class Database
         return $this->conn;
     }
 }
-// Attempt to connect to MySQL database
+/* Attempt to connect to MySQL database */
 // $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-// $connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-// $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-// $conn = mysqli_connect('localhost', 'loghgacg_one', '1lorentBank!', 'loghgacg_one');
  
 // Check connection
-if($connection === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
+// if($connection === false){
+//     die("ERROR: Could not connect. " . mysqli_connect_error());
+// }
 
 
 
