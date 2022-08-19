@@ -3,8 +3,8 @@
 server with default setting (user 'root' with no password)
 INPUT UR SQL DETAILS HERE  */
 define('DB_SERVER', 'us-cdbr-east-06.cleardb.net');
-define('DB_USERNAME', 'bad2f70af378eb');
-define('DB_PASSWORD', '17f59be5!');
+define('DB_USERNAME', 'loghgacg_one');
+define('DB_PASSWORD', '1lorentBank!');
 define('DB_NAME', 'loghgacg_one');
 
 $cleardb_url = parse_url("mysql://bad2f70af378eb:17f59be5@us-cdbr-east-06.cleardb.net/heroku_608d415b4462073?reconnect=true");
@@ -15,7 +15,7 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 
-$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+// $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 class Database
 {
    /* Do not set or touch any thing here */  
@@ -44,11 +44,12 @@ class Database
 }
 /* Attempt to connect to MySQL database */
 // $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = mysqli_connect('localhost', 'loghgacg_one', '1lorentBank!', 'loghgacg_one');
  
 // Check connection
-// if($connection === false){
-//     die("ERROR: Could not connect. " . mysqli_connect_error());
-// }
+if($connection === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
 
 
 
