@@ -44,7 +44,7 @@ class Database
 }
 // Attempt to connect to MySQL database
 // $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-$connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+// $connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 // $conn = mysqli_connect('localhost', 'loghgacg_one', '1lorentBank!', 'loghgacg_one');
  
