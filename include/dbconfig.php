@@ -3,11 +3,11 @@
 server with default setting (user 'root' with no password)
 INPUT UR SQL DETAILS HERE  */
 define('DB_SERVER', 'us-cdbr-east-06.cleardb.net');
-define('DB_USERNAME', 'loghgacg_one');
-define('DB_PASSWORD', '1lorentBank!');
+define('DB_USERNAME', 'bad2f70af378eb');
+define('DB_PASSWORD', '17f59be5!');
 define('DB_NAME', 'loghgacg_one');
 
-$cleardb_url = parse_url("mysql://loghgacg_one:1lorentBank!@us-cdbr-east-06.cleardb.net/heroku_608d415b4462073?reconnect=true");
+$cleardb_url = parse_url("mysql://bad2f70af378eb:17f59be5@us-cdbr-east-06.cleardb.net/heroku_608d415b4462073?reconnect=true");
 $cleardb_server = $cleardb_url["host"];
 $cleardb_username = $cleardb_url["user"];
 $cleardb_password = $cleardb_url["pass"];
