@@ -15,7 +15,7 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 
-$connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+// $connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 class Database
 {
